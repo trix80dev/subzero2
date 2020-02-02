@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"net"
-	"util"
+	"github.com/trix80dev/subzero2/util"
 )
 
 func main() {
