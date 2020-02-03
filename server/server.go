@@ -1,7 +1,6 @@
 package server
 
 import (
-	"fmt"
 	"net"
 	"yukon/packet"
 	"yukon/util"
@@ -37,10 +36,10 @@ func (s YukonServer) StartServer() {
 		conn, err := listener.Accept()
 		util.HandleError(err)
 
-		fmt.Println("[" + "] Client connected to server " + s.Name)
+		//fmt.Println("[" + "] Client connected to server " + s.Name)
 
 		if s.ServerType == LOGIN {
-			packet.HandleLogin(conn)
+			go packet.HandleLogin(conn)
 		}
 
 	}

@@ -11,4 +11,6 @@ func main() {
 	loginServer := server.NewServer("Login", server.LOGIN, "6112")
 	loginServer.StartServer()
 
+	fmt.Scanln()
+
 }
