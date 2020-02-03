@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43262341-f920-4c8e-9fa7-90dba05ea108" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/util.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +30,9 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1XExC3oBtINXVc0E9hLaxaiQ3h0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,6 +44,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\blake\Desktop\Projects\Go Projects\subzero2\server" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -54,9 +71,9 @@
     <configuration name="go build subzero" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="subzero2" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="subzero" />
+      <package value="main" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -97,21 +114,33 @@
     <proxy>direct</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1292" height="211" key="GridCell.Tab.0.bottom" timestamp="1580626214387">
+    <state x="403" y="82" key="#go_build_subzero" timestamp="1580630471245">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1292" height="211" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1580626214387" />
-    <state width="1292" height="211" key="GridCell.Tab.0.center" timestamp="1580626214387">
+    <state x="403" y="82" key="#go_build_subzero/0.0.1368.872@0.0.1368.872" timestamp="1580630471245" />
+    <state width="1292" height="211" key="GridCell.Tab.0.bottom" timestamp="1580710161787">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1292" height="211" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1580626214387" />
-    <state width="1292" height="211" key="GridCell.Tab.0.left" timestamp="1580626214386">
+    <state width="1292" height="211" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1580710161787" />
+    <state width="1292" height="211" key="GridCell.Tab.0.center" timestamp="1580710161786">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1292" height="211" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1580626214386" />
-    <state width="1292" height="211" key="GridCell.Tab.0.right" timestamp="1580626214387">
+    <state width="1292" height="211" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1580710161786" />
+    <state width="1292" height="211" key="GridCell.Tab.0.left" timestamp="1580710161786">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1292" height="211" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1580626214387" />
+    <state width="1292" height="211" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1580710161786" />
+    <state width="1292" height="211" key="GridCell.Tab.0.right" timestamp="1580710161787">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1292" height="211" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1580710161787" />
+    <state x="462" y="160" key="RollbackChangesDialog" timestamp="1580670293689">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="462" y="160" key="RollbackChangesDialog/0.0.1368.872@0.0.1368.872" timestamp="1580670293689" />
+    <state x="187" y="80" key="SettingsEditor" timestamp="1580664260163">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="187" y="80" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1580664260163" />
   </component>
 </project>
