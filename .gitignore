@@ -15,5 +15,3 @@
 # vendor/
 *.xml
 *.iml
-*.xml
-.idea/workspace.xml

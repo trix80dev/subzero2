@@ -1,3 +1,3 @@
-module subzero2
+module yukon
 
 go 1.13

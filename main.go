@@ -2,24 +2,13 @@ package main
 
 import (
 	"fmt"
-	"net"
-	"github.com/trix80dev/subzero2/util"
+	"yukon/server"
 )
 
 func main() {
-	fmt.Print("chehsen")
-	listener, err := net.Listen("tcp", "localhost:6112")
+	fmt.Println("Yukon started")
 
-
-
-	for {
-
-		conn, err := listener.Accept()
-
-		util
-
-	}
-
-
+	loginServer := server.NewServer("Login", server.LOGIN, "6112")
+	loginServer.StartServer()
 
 }
